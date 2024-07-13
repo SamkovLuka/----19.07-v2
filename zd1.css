@@ -1,0 +1,19 @@
+.circle{
+    width: 1000px;
+    height: 1000px;
+    border: 5px solid black;
+    border-radius: 500px;
+}
+.point{
+    margin:500px;
+    width:1px;
+    height: 1px;
+    border: 1px black solid;
+}
+.minline{
+    transform: translateX(500px);
+    transform: translateY(500px);
+    height: 150px;
+    width:1px;
+    border: 1px brown solid;
+}

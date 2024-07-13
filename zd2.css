@@ -1,0 +1,69 @@
+@keyframes animationf{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        translate:-200px;
+    }
+}
+
+
+@keyframes animationn{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        translate:+200px;
+    }
+}
+
+
+.left{
+    p{
+        opacity: 0;
+    }
+    float: left;
+    border:15px solid rgb(255, 0, 255);
+    width:530px;
+    height: 500px;
+    background-color: purple;
+    animation: animationf ease infinite;
+}
+.left:hover{   
+    p{
+        opacity: 100%;
+    }   
+    animation-name: animationf;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+}
+
+
+
+.right{
+    p{
+        opacity: 100%;
+    }
+    float: right;
+    border:15px solid rgb(255, 0, 255);
+    margin-top: -535px;
+    width: 530px;
+    height: 500px;
+    background-color: purple;
+    animation: animationn ease infinite;
+}
+.right:hover{  
+    p{
+        opacity: 0;
+    }  
+    animation-name: animationn;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+}
+p{
+    margin-right: 100px;
+    font-size: large;
+    padding-top: 500px;
+}

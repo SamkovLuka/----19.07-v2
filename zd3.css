@@ -1,0 +1,46 @@
+@keyframes gmdanimation{
+    from{
+        transform: none;
+    }
+    to{
+        opacity: 0.5;
+        background-color: black;
+    }
+}
+
+@keyframes gmdanimation2{
+    from{
+        transform: none;
+    }
+    to{
+        opacity: 0.5;
+        -ms-zoom: 20%;
+    }
+}
+
+
+.txt{
+    background-color: brown;
+    color: white;
+    width:520px;
+    height: 280px;
+    text-align: center;
+}
+.pic{
+    transform: translate(619px);
+    width:576px;
+    margin-top: -341px;
+    scale: 0.7;
+}
+.txt:hover{
+    animation-name: gmdanimation;
+    animation-duration: 0.3s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+}
+.pic:hover{
+    animation-name: gmdanimation2;
+    animation-duration: 0.3s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+}
